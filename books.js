@@ -1,4 +1,4 @@
-function renderBooks() {
+function renderBooks(filter) {
   const booksWrapper = document.querySelector(".books")
 
   const books = getBooks()
@@ -48,7 +48,6 @@ function ratingsHTML(rating) {
   }
   return ratingHTML
 }
-
 
 
 function filterBooks(event) {
